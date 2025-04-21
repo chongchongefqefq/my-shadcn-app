@@ -1,15 +1,9 @@
-import CoverflowCarousel from "@/components/CoverflowCarousel";
-import SDGCardGrid from "@/components/SDGCardGrid";
-import SdgGroupedLayout from "@/components/SdgGroupedLayout";
-import SiteFooter from "@/components/SiteFooter";
+import FullPageScroll from "@/components/FullHomePage";
 
 export default function Home() {
   return (
     <div>
-      <CoverflowCarousel bgColor="bg-green-100" intervalMs={2000} />;
-      <SDGCardGrid></SDGCardGrid>
-      <SdgGroupedLayout></SdgGroupedLayout>
-      <SiteFooter></SiteFooter>
+      <FullPageScroll></FullPageScroll>
     </div>
   );
 }
