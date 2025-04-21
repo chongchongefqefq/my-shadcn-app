@@ -7,7 +7,7 @@ import SdgGroupedLayout from "@/components/SdgGroupedLayout";
 import SiteFooter from "@/components/SiteFooter";
 
 const sections = [
-  <CoverflowCarousel key="carousel" bgColor="bg-green-100" intervalMs={2000} />,
+  <CoverflowCarousel key="carousel" bgColor="bg-white" intervalMs={2000} />,
   <SDGCardGrid key="grid" />,
   <SdgGroupedLayout key="group" />,
   <SiteFooter key="footer" />,
